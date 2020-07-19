@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>images/add.svg</file>
+        <file>images/cross.svg</file>
+        <file>images/insert.svg</file>
+        <file>images/logout.svg</file>
+        <file>images/question.svg</file>
+        <file>images/return.svg</file>
+        <file>images/save.svg</file>
+        <file>images/bar.svg</file>
+        <file>images/pie.svg</file>
+        <file>images/histogram.svg</file>
+        <file>images/venn.svg</file>
+        <file>images/battery.svg</file>
+        <file>images/figure.svg</file>
+        <file>images/table.svg</file>
+        <file>images/search.svg</file>
+    </qresource>
+</RCC>
