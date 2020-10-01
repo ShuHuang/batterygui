@@ -17,7 +17,7 @@ Then add battery.db into this folder and run:
 python appMain.py
 ```
 
-**Create the executive(.exe) file and installer**
+**Create the executable(.exe) file and installer**
 
 We suggest using fbs (fmans build system) to build a stand-alone executable for this GUI application. Please refer to this website: 
 https://build-system.fman.io/pyqt-exe-creation/
