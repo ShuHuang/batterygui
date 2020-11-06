@@ -832,7 +832,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Battery Database"))
-        self.tabWidget.setStatusTip(_translate("MainWindow", "Database citation:  Shu Huang and Jacqueline M. Cole, Scientific Data (submitted)."))
+        self.tabWidget.setStatusTip(_translate("MainWindow", "Database citation:  Huang, S., Cole, J.M. A database of battery materials auto-generated using ChemDataExtractor. Sci Data 7, 260 (2020). https://doi.org/10.1038/s41597-020-00602-2"))
         self.homeButton.setText(_translate("MainWindow", "Home"))
         self.mergeBox.setText(_translate("MainWindow", "Merged"))
         self.mergeButton.setText(_translate("MainWindow", "Show merged version"))
