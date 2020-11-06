@@ -23,3 +23,8 @@ We suggest using fbs (fmans build system) to build a stand-alone executable for 
 https://build-system.fman.io/pyqt-exe-creation/
 
 
+**Citation**
+```
+Huang, S., Cole, J.M. A database of battery materials auto-generated using ChemDataExtractor. Sci Data 7, 260 (2020). https://doi.org/10.1038/s41597-020-00602-2
+```
+
