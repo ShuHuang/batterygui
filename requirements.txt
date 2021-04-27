@@ -9,7 +9,7 @@ numpy==1.16.2
 numpydoc==0.9.1
 py==1.10.0
 pydot==1.4.1
-PyInstaller==3.5
+PyInstaller==3.6
 PyQt5==5.13.0
 PyQt5-sip==12.7.0
 PyQtChart==5.13.0
