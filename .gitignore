@@ -1,4 +1,5 @@
-
+batterygui/
 venv
 src
 target
+*.pyc
