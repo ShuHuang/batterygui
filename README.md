@@ -28,19 +28,13 @@ We suggest using fbs (fmans build system) to build a stand-alone executable for 
 ## Example Usage
 **Table View**
 <p>
-    <img src="QtApp/images/battery/table.png" width="500">
+    <img src="QtApp/images/battery/table.png">
 </p>
 
 **Figure View**
-<p>
-    <img src="QtApp/images/battery/piechart.png" width="300">
-    <img src="QtApp/images/battery/barchart.png" width="300">
-</p>
-
 
 <p>
-    <img src="QtApp/images/battery/histogram.png" width="280">
-    <img src="QtApp/images/battery/venn.png" width="300">
+    <img src="QtApp/images/battery/figures.gif">
 </p>
 
 ## Citation
