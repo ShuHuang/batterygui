@@ -27,18 +27,23 @@ We suggest using fbs (fmans build system) to build a stand-alone executable for 
 
 ## Example Usage
 **Table View**
-<p align="center">
+<p>
     <img src="QtApp/images/battery/table.png" width="500">
 </p>
 
 **Figure View**
+<p>
+    <img src="QtApp/images/battery/piechart.png" width="300">
+    <img src="QtApp/images/battery/barchart.png" width="300">
+</p>
 
-![alt-text-1](QtApp/images/battery/piechart.png "title-1") ![alt-text-2](QtApp/images/battery/barchart.png "title-2")
 
-![alt-text-1](QtApp/images/battery/histogram.png "title-1") ![alt-text-2](QtApp/images/battery/venn.png "title-2")
+<p>
+    <img src="QtApp/images/battery/histogram.png" width="280">
+    <img src="QtApp/images/battery/venn.png" width="300">
+</p>
 
-
-**Citation**
+## Citation
 ```
 @article{huang2020database,
   title={A database of battery materials auto-generated using ChemDataExtractor},
