@@ -34,7 +34,7 @@ We suggest using fbs (fmans build system) to build a stand-alone executable for 
 **Figure View**
 
 <p>
-    <img src="QtApp/images/battery/figures.gif">
+    <img src="QtApp/images/battery/gif.gif">
 </p>
 
 ## Citation
