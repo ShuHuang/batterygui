@@ -58,7 +58,7 @@ class QmyMainWindow(QMainWindow):
         self.__iniPieChart()  # Initialize pie chart
         self.__iniStackedBar()  # Stacked bar
 
-        mpl.rcParams['font.sans-serif'] = ['Calibri']
+        # mpl.rcParams['font.sans-serif'] = ['Calibri']
         mpl.rcParams['font.size'] = 8
 
         # Choose the SQLITE database drive
@@ -560,7 +560,7 @@ class QmyMainWindow(QMainWindow):
         for i in range(len(pro_list)):
             query = QSqlQuery(
                 db=self.DB,
-                query="SELECT COUNT(NAME) FROM BATTERY WHERE PROPERTY LIKE '%s' AND NUM_RECORDS LIKE 'NONE'" %
+                query="SELECT COUNT(NAME) FROM BATTERY WHERE PROPERTY LIKE '%s'" %
                 pro_list[i])  # Query database
             while query.next():
                 num_value = query.value(0)  # Returned value for each query
@@ -761,7 +761,7 @@ class QmyMainWindow(QMainWindow):
     def hist_data(self, pro):
         query = QSqlQuery(
             db=self.DB,
-            query="SELECT VALUE FROM BATTERY WHERE PROPERTY LIKE '%s' AND NUM_RECORDS LIKE 'NONE'" %
+            query="SELECT VALUE FROM BATTERY WHERE PROPERTY LIKE '%s'" %
             pro)
         data = []
         while query.next():
@@ -866,7 +866,7 @@ class QmyMainWindow(QMainWindow):
         for i in pro_list:
             query = QSqlQuery(
                 db=self.DB,
-                query="SELECT COUNT(DISTINCT NAME) FROM BATTERY WHERE PROPERTY LIKE '%s' AND NUM_RECORDS LIKE 'NONE'" %
+                query="SELECT COUNT(DISTINCT NAME) FROM BATTERY WHERE PROPERTY LIKE '%s'" %
                 i)
             while query.next():
                 num_value = query.value(0)
@@ -876,7 +876,9 @@ class QmyMainWindow(QMainWindow):
 
             query = QSqlQuery(
                 db=self.DB,
-                query="SELECT COUNT() FROM (SELECT DISTINCT NAME AS PRO1 FROM BATTERY WHERE PROPERTY LIKE '%s'AND NUM_RECORDS LIKE 'NONE') INNER JOIN (SELECT DISTINCT NAME AS PRO2 FROM BATTERY WHERE PROPERTY LIKE '%s'AND NUM_RECORDS LIKE 'NONE') ON PRO1 = PRO2" %
+                query="SELECT COUNT() FROM (SELECT DISTINCT NAME AS PRO1 FROM BATTERY WHERE PROPERTY LIKE '%s')"
+                      " INNER JOIN (SELECT DISTINCT NAME AS PRO2 FROM BATTERY WHERE PROPERTY "
+                      "LIKE '%s') ON PRO1 = PRO2" %
                 combo)
             while query.next():
                 num = query.value(0)
