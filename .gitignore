@@ -3,3 +3,5 @@ venv
 src
 target
 *.pyc
+.idea/
+__pycache__/
