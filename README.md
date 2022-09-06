@@ -37,6 +37,9 @@ We suggest using fbs (fmans build system) to build a stand-alone executable for 
     <img src="QtApp/images/battery/gif.gif">
 </p>
 
+## Acknowledgements
+This project was financially supported by the [Science and Technology Facilities Council (STFC)](https://www.ukri.org/councils/stfc/), the [Royal Academy of Engineering](https://raeng.org.uk/) (RCSRF1819\7\10) and [Christ's College, Cambridge](https://www.christs.cam.ac.uk/). The Argonne Leadership Computing Facility, which is a [DOE Office of Science Facility](https://science.osti.gov/), is also acknowledged for use of its research resources, under contract No. DEAC02-06CH11357.
+
 ## Citation
 ```
 @article{huang2020database,
